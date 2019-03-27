@@ -1,8 +1,8 @@
-# _Weather IPA_
+# _Bored IPA_
 
-#### _3/26/2019_
+#### _3/27/2019_
 
-#### By _**Olha Wysocky and Pavel Zanchuk**_
+#### By _**Jimmy Zebroski and Pavel Zanchuk**_
 
 ## Description
 _This is a Weather IPA practice._
@@ -32,4 +32,4 @@ _No known bugs._
 MIT
 **
 
-Copyright (c) 2019 **_Olha Wysocky and Pavel Zanchuk_**
+Copyright (c) 2019 **_Jimmy Zebroski and Pavel Zanchuk_**

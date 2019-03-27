@@ -1,40 +1,137 @@
 <html>
   <head>
-    <title>Weather</title>
+    <title>Bored</title>
   </head>
   <body>
     <div class="container">
-      <h1>Get Weather Conditions From Anywhere!(Using AJAX)</h1>
-      <label for="location">Enter a location:</label>
-      <input id="location" type="text">
-      <button class="btn-success" id="weatherLocation">Get Current Humidity!</button>
+
+      <h1>Use this form whenever you're bored</h1>
+
+      <form id="bored-form">
+        <label for="types">Please pick a category</label>
+        <br>
+        <select id="types">
+        <option value="education">Education</option>
+        <option value="recreational">Recreational</option>
+        <option value="social">Social</option>
+        <option value="diy">Do it yorself</option>
+        <option value="charity">Charity</option>
+        <option value="cooking">Cooking</option>
+        <option value="relaxation">Relaxation</option>
+        <option value="music">Music</option>
+        <option value="busywork">Busywork</option>
+        </select>
+        <br>
+        <button type="submit">Submit</button>
+      </form>
+
+      <div class="row">
+        <div class="col-sm box edu">
+          <div class="card">
+            <div class="card-header">
+              Education
+            </div>
+            <ul>
+              <li class="education"></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-sm box rec">
+          <div class="card">
+            <div class="card-header">
+              Recreational
+            </div>
+            <ul>
+              <li class="recreational"></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-sm box soc">
+          <div class="card">
+            <div class="card-header">
+              Social
+            </div>
+            <ul>
+              <li class="social"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm box di">
+          <div class="card">
+            <div class="card-header">
+              Do it yoursel
+            </div>
+            <ul>
+              <li class="diy"></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-sm box char">
+          <div class="card">
+            <div class="card-header">
+              Charity
+            </div>
+            <ul>
+              <li class="charity"></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-sm box coo">
+          <div class="card">
+            <div class="card-header">
+              Cooking
+            </div>
+            <ul>
+              <li class="cooking"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm box rel">
+          <div class="card">
+            <div class="card-header">
+              Relaxation
+            </div>
+            <ul>
+              <li class="relaxation"></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-sm box mus">
+          <div class="card">
+            <div class="card-header">
+              Music
+            </div>
+            <ul>
+              <li class="music"></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-sm box bus">
+          <div class="card">
+            <div class="card-header">
+              Busywork
+            </div>
+            <ul>
+              <li class="busywork"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
       <div class="errors"></div>
-      <div class="showHumidity"></div>
-      <div class="showTemp"></div>
 
-      <h1>Get Weather Conditions From Anywhere!(Using XMLHttpRequest)</h1>
-      <label for="location2">Enter a location:</label>
-      <input id="location2" type="text">
-      <button class="btn-success" id="weatherLocation2">Get Current Humidity!</button>
-      <div class="errors2"></div>
-      <div class="showHumidity2"></div>
-      <div class="showTemp2"></div>
-
-      <h1>Get Weather Conditions From Anywhere!(Using Promises)</h1>
-      <label for="location3">Enter a location:</label>
-      <input id="location3" type="text">
-      <button class="btn-success" id="weatherLocation3">Get Current Humidity!</button>
-      <div class="errors3"></div>
-      <div class="showHumidity3"></div>
-      <div class="showTemp3"></div>
-
-      <h1>Get Weather Conditions From Anywhere!(Using ES6 Promises)</h1>
-      <label for="location4">Enter a location:</label>
-      <input id="location4" type="text">
-      <button class="btn-success" id="weatherLocation4">Get Current Humidity!</button>
-      <div class="errors4"></div>
-      <div class="showHumidity4"></div>
-      <div class="showTemp4"></div>
     </div>
   </body>
 </html>

@@ -1,0 +1,29 @@
+.box{
+  margin: 5px;
+}
+
+button{
+  margin: 10px;
+}
+
+.edu, .rec, .soc, .di, .char, .coo, .rel, .mus, .bus {
+  display: none;
+}
+
+.card-header{
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 9px #000000;
+}
+
+#bored-form{
+text-align: center;
+}
+
+ul{
+  list-style: none;
+}
+
+h1{
+  text-align: center;
+}
